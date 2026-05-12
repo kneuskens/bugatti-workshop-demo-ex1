@@ -210,7 +210,7 @@ static void checkFirmwareUpdate() {
 		return;
 	}
 
-	// Find all browser_download_url entries and look for firmware.bin
+	// Find all browser_download_url entries and look for firmware.bin ; this is my test
 	int searchStart = assetsPos;
 	int urlPos = -1;
 
